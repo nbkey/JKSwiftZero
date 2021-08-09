@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JKSwiftZero_Example' do
+  pod 'JKSwiftZero', :path => '../'
+
+  target 'JKSwiftZero_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
