@@ -32,9 +32,10 @@ Pod::Spec.new do |s|
     s.swift_versions = ['5.0']
     s.source_files = 'JKSwiftZero/Classes/**/*'
     
-    s.resource_bundles = {
-        'JKSwiftZero' => ['JKSwiftZero/Assets/*.png']
-    }
+    # 放在子工程内
+    # s.resource_bundles = {
+    #   'JKSwiftZero' => ['JKSwiftZero/Assets/*']
+    # }
     
     # s.public_header_files = 'Pod/Classes/**/*'
     # s.frameworks = 'UIKit', 'MapKit'
