@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     s.source_files = 'JKSwiftZero/Classes/**/*'
     
     s.resource_bundles = {
-        'JKSwiftZero' => ['JKSwiftZero/Assets/*']
+        'JKSwiftZero' => ['JKSwiftZero/Assets/**/*']
     }
     
     # s.public_header_files = 'Pod/Classes/**/*'

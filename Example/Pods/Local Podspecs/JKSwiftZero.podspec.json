@@ -18,10 +18,14 @@
   "platforms": {
     "ios": "10.0"
   },
+  "swift_versions": [
+    "5.0"
+  ],
   "source_files": "JKSwiftZero/Classes/**/*",
   "resource_bundles": {
     "JKSwiftZero": [
-      "JKSwiftZero/Assets/*"
+      "JKSwiftZero/Assets/**/*"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
