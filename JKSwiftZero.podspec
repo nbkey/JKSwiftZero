@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JKSwiftZero'
-    s.version          = '1.0.1'
+    s.version          = '1.0.0'
     s.summary          = 'A short description of JKSwiftZero.'
     
     # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
     s.source_files = 'JKSwiftZero/Classes/**/*'
     
     s.resource_bundles = {
-        'JKSwiftZero' => ['JKSwiftZero/Assets/**/*']
+        'JKSwiftZero' => ['JKSwiftZero/Assets/*.png']
     }
     
     # s.public_header_files = 'Pod/Classes/**/*'
