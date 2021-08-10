@@ -24,7 +24,7 @@
   "source_files": "JKSwiftZero/Classes/**/*",
   "resource_bundles": {
     "JKSwiftZero": [
-      "JKSwiftZero/Assets/**/*"
+      "JKSwiftZero/Assets/*.png"
     ]
   },
   "swift_version": "5.0"
