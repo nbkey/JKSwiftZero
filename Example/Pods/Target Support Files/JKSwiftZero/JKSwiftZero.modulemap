@@ -1,0 +1,6 @@
+framework module JKSwiftZero {
+  umbrella header "JKSwiftZero-umbrella.h"
+
+  export *
+  module * { export * }
+}

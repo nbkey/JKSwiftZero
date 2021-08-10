@@ -7,36 +7,36 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'JKSwiftZero'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of JKSwiftZero.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/nbkey/JKSwiftZero'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'nbkey' => 'jigk@winning.com.cn' }
-  s.source           = { :git => 'https://github.com/nbkey/JKSwiftZero.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'JKSwiftZero/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'JKSwiftZero' => ['JKSwiftZero/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'JKSwiftZero'
+    s.version          = '0.1.0'
+    s.summary          = 'A short description of JKSwiftZero.'
+    
+    # This description is used to generate tags and improve search results.
+    #   * Think: What does it do? Why did you write it? What is the focus?
+    #   * Try to keep it short, snappy and to the point.
+    #   * Write the description between the DESC delimiters below.
+    #   * Finally, don't worry about the indent, CocoaPods strips it!
+    
+    s.description      = <<-DESC
+    TODO: Add long description of the pod here.
+    DESC
+    
+    s.homepage         = 'https://github.com/nbkey/JKSwiftZero'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'nbkey' => 'jigk@winning.com.cn' }
+    s.source           = { :git => 'https://github.com/nbkey/JKSwiftZero.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    
+    s.ios.deployment_target = '9.0'
+    
+    s.source_files = 'JKSwiftZero/Classes/**/*'
+    
+    s.resource_bundles = {
+        'JKSwiftZero' => ['JKSwiftZero/Assets/**/*']
+    }
+    
+    # s.public_header_files = 'Pod/Classes/**/*'
+    # s.frameworks = 'UIKit', 'MapKit'
+    # s.dependency 'AFNetworking', '~> 2.3'
 end
