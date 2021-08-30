@@ -30,15 +30,14 @@ Pod::Spec.new do |s|
     
     s.ios.deployment_target = '10.0'
     s.swift_versions = ['5.0']
-    s.source_files = 'JKSwiftZero/Classes/**/*'
     
-    s.subspec 'Playground' do |ss|
-        # ss.source_files = 'JKSwiftZero/Classes/Playground/**/*'
+    s.subspec 'Classes' do |ss|
+        s.source_files = 'JKSwiftZero/Classes/**/*'
 #        ss.prefix_header_file = ''
        # ss.resource_bundles = {
        #     '' => ['JKSwiftZero/Classes/Playground/**/*']
        # }
-        ss.resources = ['JKSwiftZero/Classes/Playground/**/*']
+#        ss.resources = ['JKSwiftZero/Classes/Playground/**/*']
     end
     
     # 放在子工程内

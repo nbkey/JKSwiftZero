@@ -24,8 +24,10 @@
   "source_files": "JKSwiftZero/Classes/**/*",
   "subspecs": [
     {
-      "name": "Playground",
-      "source_files": "JKSwiftZero/Classes/Playground/**/*"
+      "name": "Classes",
+      "resources": [
+        "JKSwiftZero/Classes/Playground/**/*"
+      ]
     }
   ],
   "swift_version": "5.0"
