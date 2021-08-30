@@ -33,11 +33,11 @@ Pod::Spec.new do |s|
     s.source_files = 'JKSwiftZero/Classes/**/*'
     
     s.subspec 'Playground' do |ss|
-        ss.source_files = 'JKSwiftZero/Classes/Playground/**/*'
+        # ss.source_files = 'JKSwiftZero/Classes/Playground/**/*'
 #        ss.prefix_header_file = ''
-#        ss.resource_bundles = {
-#            'Xibs' => ['JKSwiftZero/Classes//**/*.xib']
-#        }
+       ss.resource_bundles = {
+           'Xibs' => ['JKSwiftZero/Classes/Playground/**/*']
+       }
         #ss.resources = ['DAHealthMonitoring/Assets/*.xcassets']
     end
     
