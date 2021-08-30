@@ -21,13 +21,18 @@
   "swift_versions": [
     "5.0"
   ],
-  "source_files": "JKSwiftZero/Classes/**/*",
   "subspecs": [
     {
       "name": "Classes",
-      "resources": [
-        "JKSwiftZero/Classes/Playground/**/*"
-      ]
+      "source_files": "JKSwiftZero/Classes/**/*"
+    },
+    {
+      "name": "Assets",
+      "resource_bundles": {
+        "JKSwiftZeroAssets": [
+          "JKSwiftZero/Assets/*.xcassets"
+        ]
+      }
     }
   ],
   "swift_version": "5.0"

@@ -1,6 +1,8 @@
 PODS:
   - JKSwiftZero (1.0.1):
+    - JKSwiftZero/Assets (= 1.0.1)
     - JKSwiftZero/Classes (= 1.0.1)
+  - JKSwiftZero/Assets (1.0.1)
   - JKSwiftZero/Classes (1.0.1)
 
 DEPENDENCIES:
@@ -11,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKSwiftZero: c3bd55fda74d4a17b8f47033349ff45b95d87707
+  JKSwiftZero: a5d5be93d20b9e3690a9ef0951d776f691cea6b2
 
 PODFILE CHECKSUM: c63f9fd8183fc64c9de895fc353fc1294f08d459
 

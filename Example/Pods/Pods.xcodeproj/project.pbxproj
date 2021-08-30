@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06C55DCFEDDCF6969B30196A25DF03C9 /* JKBasicTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB37CD652FE8F9D5FA2AA322A49D63 /* JKBasicTest.swift */; };
-		10DC5CFDDB58BA2E01023DB5836CDFC9 /* JKBasicGrammar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C03138F7E8D8E211B747C966A30C063 /* JKBasicGrammar.swift */; };
-		5A23D2031CB267F8C63CA68220C5AB38 /* Pods-JKSwiftZero_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0519318150457B390D792B18EB30701E /* Pods-JKSwiftZero_Example-dummy.m */; };
-		72BD5D630140839E90CCBA821901C928 /* Pods-JKSwiftZero_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61B930868D1103C7A5CEB17D001DA0AB /* Pods-JKSwiftZero_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B17ED5695CC0164B7FAB3EEE5BC68B71 /* JKSwiftZero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4B64F01E5CF85A66AE7A48163F8170 /* JKSwiftZero-dummy.m */; };
-		B7AE057D0B6624E23BA53DEEBD518AEC /* Pods-JKSwiftZero_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7A8D04D9FABCA9113DFF816DFCF616 /* Pods-JKSwiftZero_Tests-dummy.m */; };
-		D8876C701CB4F78A4B1EC02281E0EE4E /* JKBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F63BF05B29102023ADAC95DE65FCAE49 /* JKBaseTest.swift */; };
-		F27F0B2CEA9F716B07D53D9097D6FD18 /* JKSwiftZero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECA1AADAE17E7850A016C58D6BC36670 /* JKSwiftZero-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		389A072923BF5BFEC026FE177AF57C75 /* JKBasicGrammar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D248EB4707E58AFB07475DA1C34378E /* JKBasicGrammar.swift */; };
+		3B0E4EB561640E56510705FAEFF96C93 /* JKSwiftZero-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C13EA25B345C0B4C959097E52CEE7772 /* JKSwiftZero-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3F3EC8A7A70920AEAC8DCD41D4E92223 /* JKSwiftZero-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A25FE8D2D00AD7BAC81D27C3DAD79B0B /* JKSwiftZero-dummy.m */; };
+		5A23D2031CB267F8C63CA68220C5AB38 /* Pods-JKSwiftZero_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C065B30956417AC00E82D87F5C2BEA /* Pods-JKSwiftZero_Example-dummy.m */; };
+		72BD5D630140839E90CCBA821901C928 /* Pods-JKSwiftZero_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5087849ADFE0FE162B55972633214E22 /* Pods-JKSwiftZero_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7AE057D0B6624E23BA53DEEBD518AEC /* Pods-JKSwiftZero_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F45820DF297A46F6D5875EEC1F2D0F9 /* Pods-JKSwiftZero_Tests-dummy.m */; };
+		C9D2D601038AEF6DCB1AD8DE9CDA711F /* JKBasicTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7170DA7118E311D17736A8846F3141AF /* JKBasicTest.swift */; };
+		CA3FB4F690C711738B84F783DDA211D4 /* JKSwiftZeroAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F297A42A8F225759D1CBFCC0A24D6AB /* JKSwiftZeroAssets.xcassets */; };
+		D1D8D083B41C013C2C4D87BB84F86011 /* JKBaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92368BC2B1F78C00F0B18573B7653593 /* JKBaseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3C65049F661D1E9A759826C05AE18170 /* PBXContainerItemProxy */ = {
+		1F4BC2AED07E41237914FC7DC8EE6A4D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9C1822E1406E7F58200D2EDA195FA773;
 			remoteInfo = JKSwiftZero;
 		};
-		BE276DA79E31CA5BE4BA825DF6216FC7 /* PBXContainerItemProxy */ = {
+		78D6E8DBFDD35A1AC7028755A1F00C73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61524C062E43F5F5F873E35CC28A640F;
+			remoteInfo = "JKSwiftZero-JKSwiftZeroAssets";
+		};
+		EDD9CADD1BE23C82582B41709D6F268A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,38 +43,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0519318150457B390D792B18EB30701E /* Pods-JKSwiftZero_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftZero_Example-dummy.m"; sourceTree = "<group>"; };
-		0946BDD78D5BC910117F974499F96236 /* JKSwiftZero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftZero-prefix.pch"; sourceTree = "<group>"; };
-		0C03138F7E8D8E211B747C966A30C063 /* JKBasicGrammar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKBasicGrammar.swift; path = JKSwiftZero/Classes/JKBasicGrammar.swift; sourceTree = "<group>"; };
-		1546F3BEA28400F854994B5DF1E37D2E /* Pods-JKSwiftZero_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSwiftZero_Example.modulemap"; sourceTree = "<group>"; };
-		237837C84BC7F5777815FBCB6F3C0206 /* Pods-JKSwiftZero_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		246FB854AE14B30F31EB1EB4579753EA /* JKSwiftZero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftZero.debug.xcconfig; sourceTree = "<group>"; };
-		28F861C98974BF99EF040FD6BCF4B3ED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2961566B45C976156D1C1DF1F9ADFD49 /* Pods-JKSwiftZero_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2A667D83AD97DAFF01FD8FF0ED6CE05E /* JKSwiftZero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSwiftZero.modulemap; sourceTree = "<group>"; };
-		53155B6A3A5F5D72B5E23D041D42BEDE /* Pods-JKSwiftZero_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftZero_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		099EBDF0CE20BB2A7E0D8DE8AB692E83 /* Pods-JKSwiftZero_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0B8EDCCBB35C783D6A0D5C411E888E58 /* JKSwiftZero.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftZero.debug.xcconfig; sourceTree = "<group>"; };
+		0E53384BDDD469CC4BFEE5728B93FB53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0F297A42A8F225759D1CBFCC0A24D6AB /* JKSwiftZeroAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = JKSwiftZeroAssets.xcassets; path = JKSwiftZero/Assets/JKSwiftZeroAssets.xcassets; sourceTree = "<group>"; };
+		1CBFD8FB49124D743E8C4135BDDE0C54 /* Pods-JKSwiftZero_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1F3028B35E7212032BD9F88777CA21F1 /* Pods-JKSwiftZero_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		283B4509EA0346F1E7D0A076F2771226 /* Pods-JKSwiftZero_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftZero_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E55AA6BAD87D456FF15DB01AD6ED438 /* JKSwiftZeroAssets.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = JKSwiftZeroAssets.bundle; path = "JKSwiftZero-JKSwiftZeroAssets.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D248EB4707E58AFB07475DA1C34378E /* JKBasicGrammar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKBasicGrammar.swift; path = JKSwiftZero/Classes/JKBasicGrammar.swift; sourceTree = "<group>"; };
+		5087849ADFE0FE162B55972633214E22 /* Pods-JKSwiftZero_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSwiftZero_Example-umbrella.h"; sourceTree = "<group>"; };
+		594D598F0F70B5995AC1371870F10EAB /* Pods-JKSwiftZero_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKSwiftZero_Example-resources.sh"; sourceTree = "<group>"; };
 		597FA907183BA3AB8652E60475765501 /* libPods-JKSwiftZero_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JKSwiftZero_Example.a"; path = "libPods-JKSwiftZero_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61B930868D1103C7A5CEB17D001DA0AB /* Pods-JKSwiftZero_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSwiftZero_Example-umbrella.h"; sourceTree = "<group>"; };
+		6E9711D946E5D1C12A40EEDF5448234B /* JKSwiftZero.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKSwiftZero.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7170DA7118E311D17736A8846F3141AF /* JKBasicTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKBasicTest.swift; path = JKSwiftZero/Classes/JKBasicTest.swift; sourceTree = "<group>"; };
 		77D5B5E3C6D1DE14015534F5C9926042 /* libJKSwiftZero.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJKSwiftZero.a; path = libJKSwiftZero.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		820DB5404DF1E954A3FE3B1D572B97BF /* Pods-JKSwiftZero_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSwiftZero_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8261E0BDCEBB8B437A50601F272DC555 /* Pods-JKSwiftZero_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7F45820DF297A46F6D5875EEC1F2D0F9 /* Pods-JKSwiftZero_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftZero_Tests-dummy.m"; sourceTree = "<group>"; };
 		85A6BBC0D389BE8829B83FB5088759BD /* libPods-JKSwiftZero_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JKSwiftZero_Tests.a"; path = "libPods-JKSwiftZero_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96E83584B55FED12F28E7461E83D529F /* Pods-JKSwiftZero_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSwiftZero_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		999BF8F90F281A429D0AD0FEFE7E5AE5 /* JKSwiftZero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftZero.release.xcconfig; sourceTree = "<group>"; };
+		87EA46434226B965C43A42DFD909C7DA /* JKSwiftZero.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSwiftZero.modulemap; sourceTree = "<group>"; };
+		92368BC2B1F78C00F0B18573B7653593 /* JKBaseTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKBaseTest.swift; path = JKSwiftZero/Classes/JKBaseTest.swift; sourceTree = "<group>"; };
+		961DEBFE86F7D262370F34B32AF88970 /* Pods-JKSwiftZero_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSwiftZero_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4CB37CD652FE8F9D5FA2AA322A49D63 /* JKBasicTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKBasicTest.swift; path = JKSwiftZero/Classes/JKBasicTest.swift; sourceTree = "<group>"; };
-		B634A669E074E646B14EE50535451DAB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BF7A8D04D9FABCA9113DFF816DFCF616 /* Pods-JKSwiftZero_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftZero_Tests-dummy.m"; sourceTree = "<group>"; };
-		C55FC545011F3733FD2D06063F461D8D /* JKSwiftZero.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JKSwiftZero.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C9DA1CCA8A10D97004F5A1A5084227E5 /* Pods-JKSwiftZero_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftZero_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D58301753F024184BEC7EE8E466E1E8C /* Pods-JKSwiftZero_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Example.release.xcconfig"; sourceTree = "<group>"; };
-		ECA1AADAE17E7850A016C58D6BC36670 /* JKSwiftZero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftZero-umbrella.h"; sourceTree = "<group>"; };
-		ED4B64F01E5CF85A66AE7A48163F8170 /* JKSwiftZero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftZero-dummy.m"; sourceTree = "<group>"; };
-		F63BF05B29102023ADAC95DE65FCAE49 /* JKBaseTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JKBaseTest.swift; path = JKSwiftZero/Classes/JKBaseTest.swift; sourceTree = "<group>"; };
+		A25FE8D2D00AD7BAC81D27C3DAD79B0B /* JKSwiftZero-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSwiftZero-dummy.m"; sourceTree = "<group>"; };
+		A421CEC72C8D586EA0F7524E49F52F98 /* Pods-JKSwiftZero_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSwiftZero_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6A28CD706569F065DE3FA1C0440D9D4 /* Pods-JKSwiftZero_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSwiftZero_Example.modulemap"; sourceTree = "<group>"; };
+		AD86133762B3C47813F1F99D9DB2BAEB /* JKSwiftZero.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSwiftZero.release.xcconfig; sourceTree = "<group>"; };
+		C13EA25B345C0B4C959097E52CEE7772 /* JKSwiftZero-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftZero-umbrella.h"; sourceTree = "<group>"; };
+		C1C065B30956417AC00E82D87F5C2BEA /* Pods-JKSwiftZero_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSwiftZero_Example-dummy.m"; sourceTree = "<group>"; };
+		CA806FA95FB10905FC81C849A896DE47 /* Pods-JKSwiftZero_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSwiftZero_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DC32075278E0108E7E42CD9CA4AB7063 /* ResourceBundle-JKSwiftZeroAssets-JKSwiftZero-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-JKSwiftZeroAssets-JKSwiftZero-Info.plist"; sourceTree = "<group>"; };
+		EAC8FF883B481723C64E56CB15D0B05D /* Pods-JKSwiftZero_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSwiftZero_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EE06A41ECD5810FE6F1412CE7B2C77ED /* JKSwiftZero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSwiftZero-prefix.pch"; sourceTree = "<group>"; };
+		F8F91D9E4F7FF04ACC287DD18A2E7123 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CC9B2375520F474966EA0371A1E9F30 /* Frameworks */ = {
+		331DDC0D0A85175B7D354DECA24F1395 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A0D81787D4E56F3E82A87D73CA37C9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,107 +109,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		027DD010C6088BA0A23318428AF763D1 /* Pods-JKSwiftZero_Example */ = {
+		111C59D1255946EA9098E0A5F2C6C471 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1546F3BEA28400F854994B5DF1E37D2E /* Pods-JKSwiftZero_Example.modulemap */,
-				820DB5404DF1E954A3FE3B1D572B97BF /* Pods-JKSwiftZero_Example-acknowledgements.markdown */,
-				C9DA1CCA8A10D97004F5A1A5084227E5 /* Pods-JKSwiftZero_Example-acknowledgements.plist */,
-				0519318150457B390D792B18EB30701E /* Pods-JKSwiftZero_Example-dummy.m */,
-				61B930868D1103C7A5CEB17D001DA0AB /* Pods-JKSwiftZero_Example-umbrella.h */,
-				8261E0BDCEBB8B437A50601F272DC555 /* Pods-JKSwiftZero_Example.debug.xcconfig */,
-				D58301753F024184BEC7EE8E466E1E8C /* Pods-JKSwiftZero_Example.release.xcconfig */,
+				2AF05B1FE46EEC4F15FBDF3460F6A002 /* Pods-JKSwiftZero_Example */,
+				9E9BFF3B8CC0A8CC1D29B74425B1CE46 /* Pods-JKSwiftZero_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1A434B7B089EBB8485640EBB591C3488 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0F297A42A8F225759D1CBFCC0A24D6AB /* JKSwiftZeroAssets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		2AF05B1FE46EEC4F15FBDF3460F6A002 /* Pods-JKSwiftZero_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A6A28CD706569F065DE3FA1C0440D9D4 /* Pods-JKSwiftZero_Example.modulemap */,
+				961DEBFE86F7D262370F34B32AF88970 /* Pods-JKSwiftZero_Example-acknowledgements.markdown */,
+				283B4509EA0346F1E7D0A076F2771226 /* Pods-JKSwiftZero_Example-acknowledgements.plist */,
+				C1C065B30956417AC00E82D87F5C2BEA /* Pods-JKSwiftZero_Example-dummy.m */,
+				594D598F0F70B5995AC1371870F10EAB /* Pods-JKSwiftZero_Example-resources.sh */,
+				5087849ADFE0FE162B55972633214E22 /* Pods-JKSwiftZero_Example-umbrella.h */,
+				099EBDF0CE20BB2A7E0D8DE8AB692E83 /* Pods-JKSwiftZero_Example.debug.xcconfig */,
+				1CBFD8FB49124D743E8C4135BDDE0C54 /* Pods-JKSwiftZero_Example.release.xcconfig */,
 			);
 			name = "Pods-JKSwiftZero_Example";
 			path = "Target Support Files/Pods-JKSwiftZero_Example";
 			sourceTree = "<group>";
 		};
-		25FCF6D3CB9C72987F432D93D0B6259C /* Products */ = {
+		3460547B20540370B8C8FC487B4546A7 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				77D5B5E3C6D1DE14015534F5C9926042 /* libJKSwiftZero.a */,
-				597FA907183BA3AB8652E60475765501 /* libPods-JKSwiftZero_Example.a */,
-				85A6BBC0D389BE8829B83FB5088759BD /* libPods-JKSwiftZero_Tests.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		34139C6DFA6D89ECEB613C1C02BF3DD9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2A667D83AD97DAFF01FD8FF0ED6CE05E /* JKSwiftZero.modulemap */,
-				ED4B64F01E5CF85A66AE7A48163F8170 /* JKSwiftZero-dummy.m */,
-				0946BDD78D5BC910117F974499F96236 /* JKSwiftZero-prefix.pch */,
-				ECA1AADAE17E7850A016C58D6BC36670 /* JKSwiftZero-umbrella.h */,
-				246FB854AE14B30F31EB1EB4579753EA /* JKSwiftZero.debug.xcconfig */,
-				999BF8F90F281A429D0AD0FEFE7E5AE5 /* JKSwiftZero.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JKSwiftZero";
-			sourceTree = "<group>";
-		};
-		5887C5AF47487E383BCDB47B5B6945D8 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				C55FC545011F3733FD2D06063F461D8D /* JKSwiftZero.podspec */,
-				28F861C98974BF99EF040FD6BCF4B3ED /* LICENSE */,
-				B634A669E074E646B14EE50535451DAB /* README.md */,
+				6E9711D946E5D1C12A40EEDF5448234B /* JKSwiftZero.podspec */,
+				F8F91D9E4F7FF04ACC287DD18A2E7123 /* LICENSE */,
+				0E53384BDDD469CC4BFEE5728B93FB53 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		78E4D3B1AC3F78F354909701F39AF8A5 /* Development Pods */ = {
+		5C4090111A945783368EA83BC5BC76CA /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AFBD55B4320894001299B19EC7822974 /* JKSwiftZero */,
+				B093C907D426EDD7BCB19C454A927419 /* JKSwiftZero */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		AFBD55B4320894001299B19EC7822974 /* JKSwiftZero */ = {
+		9E9BFF3B8CC0A8CC1D29B74425B1CE46 /* Pods-JKSwiftZero_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F63BF05B29102023ADAC95DE65FCAE49 /* JKBaseTest.swift */,
-				0C03138F7E8D8E211B747C966A30C063 /* JKBasicGrammar.swift */,
-				A4CB37CD652FE8F9D5FA2AA322A49D63 /* JKBasicTest.swift */,
-				5887C5AF47487E383BCDB47B5B6945D8 /* Pod */,
-				34139C6DFA6D89ECEB613C1C02BF3DD9 /* Support Files */,
-			);
-			name = JKSwiftZero;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		C82CD572FA625B2846DE5FF201244B3C /* Pods-JKSwiftZero_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				96E83584B55FED12F28E7461E83D529F /* Pods-JKSwiftZero_Tests-acknowledgements.markdown */,
-				53155B6A3A5F5D72B5E23D041D42BEDE /* Pods-JKSwiftZero_Tests-acknowledgements.plist */,
-				BF7A8D04D9FABCA9113DFF816DFCF616 /* Pods-JKSwiftZero_Tests-dummy.m */,
-				237837C84BC7F5777815FBCB6F3C0206 /* Pods-JKSwiftZero_Tests.debug.xcconfig */,
-				2961566B45C976156D1C1DF1F9ADFD49 /* Pods-JKSwiftZero_Tests.release.xcconfig */,
+				A421CEC72C8D586EA0F7524E49F52F98 /* Pods-JKSwiftZero_Tests-acknowledgements.markdown */,
+				EAC8FF883B481723C64E56CB15D0B05D /* Pods-JKSwiftZero_Tests-acknowledgements.plist */,
+				7F45820DF297A46F6D5875EEC1F2D0F9 /* Pods-JKSwiftZero_Tests-dummy.m */,
+				1F3028B35E7212032BD9F88777CA21F1 /* Pods-JKSwiftZero_Tests.debug.xcconfig */,
+				CA806FA95FB10905FC81C849A896DE47 /* Pods-JKSwiftZero_Tests.release.xcconfig */,
 			);
 			name = "Pods-JKSwiftZero_Tests";
 			path = "Target Support Files/Pods-JKSwiftZero_Tests";
+			sourceTree = "<group>";
+		};
+		B093C907D426EDD7BCB19C454A927419 /* JKSwiftZero */ = {
+			isa = PBXGroup;
+			children = (
+				1A434B7B089EBB8485640EBB591C3488 /* Assets */,
+				E336108B2BDA9BCA5AF78108563B66BC /* Classes */,
+				3460547B20540370B8C8FC487B4546A7 /* Pod */,
+				FE526005C9817062D405CB39DD90E1FE /* Support Files */,
+			);
+			name = JKSwiftZero;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				78E4D3B1AC3F78F354909701F39AF8A5 /* Development Pods */,
+				5C4090111A945783368EA83BC5BC76CA /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				25FCF6D3CB9C72987F432D93D0B6259C /* Products */,
-				D142B7B28C59057594E2FCA3442FBE20 /* Targets Support Files */,
+				CFDF849133A4EF635ABAB10CDE65F0E4 /* Products */,
+				111C59D1255946EA9098E0A5F2C6C471 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D142B7B28C59057594E2FCA3442FBE20 /* Targets Support Files */ = {
+		CFDF849133A4EF635ABAB10CDE65F0E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				027DD010C6088BA0A23318428AF763D1 /* Pods-JKSwiftZero_Example */,
-				C82CD572FA625B2846DE5FF201244B3C /* Pods-JKSwiftZero_Tests */,
+				3E55AA6BAD87D456FF15DB01AD6ED438 /* JKSwiftZeroAssets.bundle */,
+				77D5B5E3C6D1DE14015534F5C9926042 /* libJKSwiftZero.a */,
+				597FA907183BA3AB8652E60475765501 /* libPods-JKSwiftZero_Example.a */,
+				85A6BBC0D389BE8829B83FB5088759BD /* libPods-JKSwiftZero_Tests.a */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -200,22 +214,47 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E336108B2BDA9BCA5AF78108563B66BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92368BC2B1F78C00F0B18573B7653593 /* JKBaseTest.swift */,
+				4D248EB4707E58AFB07475DA1C34378E /* JKBasicGrammar.swift */,
+				7170DA7118E311D17736A8846F3141AF /* JKBasicTest.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FE526005C9817062D405CB39DD90E1FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87EA46434226B965C43A42DFD909C7DA /* JKSwiftZero.modulemap */,
+				A25FE8D2D00AD7BAC81D27C3DAD79B0B /* JKSwiftZero-dummy.m */,
+				EE06A41ECD5810FE6F1412CE7B2C77ED /* JKSwiftZero-prefix.pch */,
+				C13EA25B345C0B4C959097E52CEE7772 /* JKSwiftZero-umbrella.h */,
+				0B8EDCCBB35C783D6A0D5C411E888E58 /* JKSwiftZero.debug.xcconfig */,
+				AD86133762B3C47813F1F99D9DB2BAEB /* JKSwiftZero.release.xcconfig */,
+				DC32075278E0108E7E42CD9CA4AB7063 /* ResourceBundle-JKSwiftZeroAssets-JKSwiftZero-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JKSwiftZero";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0E780EF7EF3780816C6F1EA959675BEA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F27F0B2CEA9F716B07D53D9097D6FD18 /* JKSwiftZero-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		37BD0F42F2AAF7787BD834732D910F5F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				72BD5D630140839E90CCBA821901C928 /* Pods-JKSwiftZero_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7491C638930DB5498906491ABB7833F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B0E4EB561640E56510705FAEFF96C93 /* JKSwiftZero-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +268,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		61524C062E43F5F5F873E35CC28A640F /* JKSwiftZero-JKSwiftZeroAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91CD642950A21BF2686FE48F5AACD8D3 /* Build configuration list for PBXNativeTarget "JKSwiftZero-JKSwiftZeroAssets" */;
+			buildPhases = (
+				681153D70639337E1D8586305A4A074E /* Sources */,
+				5A0D81787D4E56F3E82A87D73CA37C9B /* Frameworks */,
+				2268EF1230773DDC7F8C10E3A5E66375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JKSwiftZero-JKSwiftZeroAssets";
+			productName = "JKSwiftZero-JKSwiftZeroAssets";
+			productReference = 3E55AA6BAD87D456FF15DB01AD6ED438 /* JKSwiftZeroAssets.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		85AEF83B4CDC524672447EAF44354E71 /* Pods-JKSwiftZero_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 98620F119F58C2CF59CF09197B12EC8A /* Build configuration list for PBXNativeTarget "Pods-JKSwiftZero_Example" */;
@@ -240,7 +296,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9DAFBFAE2D3BC7FAEC4E84BFCED3AE56 /* PBXTargetDependency */,
+				828258A1FFD53A4BE23DB3149F98C50E /* PBXTargetDependency */,
 			);
 			name = "Pods-JKSwiftZero_Example";
 			productName = "Pods-JKSwiftZero_Example";
@@ -249,16 +305,17 @@
 		};
 		9C1822E1406E7F58200D2EDA195FA773 /* JKSwiftZero */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E76960C21784DE7C3FC85BAC7110D1D /* Build configuration list for PBXNativeTarget "JKSwiftZero" */;
+			buildConfigurationList = BD3301E5B3D8CCDD158BB3D142C6651A /* Build configuration list for PBXNativeTarget "JKSwiftZero" */;
 			buildPhases = (
-				0E780EF7EF3780816C6F1EA959675BEA /* Headers */,
-				A301439C53E403B030EB216A5CDB4A73 /* Sources */,
-				5CC9B2375520F474966EA0371A1E9F30 /* Frameworks */,
-				ACB21399481A4E889CFC5CB1C8771D9F /* Copy generated compatibility header */,
+				7491C638930DB5498906491ABB7833F4 /* Headers */,
+				20BD3C1C4658B31400C7DC7A83677702 /* Sources */,
+				331DDC0D0A85175B7D354DECA24F1395 /* Frameworks */,
+				6481E941145D05894142450D104EA6C9 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				446EA727D9CCFFB2503291B68FD00088 /* PBXTargetDependency */,
 			);
 			name = JKSwiftZero;
 			productName = JKSwiftZero;
@@ -276,7 +333,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F2AA48BF9793774F23A55484090B9FDA /* PBXTargetDependency */,
+				E58DAB10BDB9EA868ED449E8D92F80B0 /* PBXTargetDependency */,
 			);
 			name = "Pods-JKSwiftZero_Tests";
 			productName = "Pods-JKSwiftZero_Tests";
@@ -301,19 +358,31 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 25FCF6D3CB9C72987F432D93D0B6259C /* Products */;
+			productRefGroup = CFDF849133A4EF635ABAB10CDE65F0E4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9C1822E1406E7F58200D2EDA195FA773 /* JKSwiftZero */,
+				61524C062E43F5F5F873E35CC28A640F /* JKSwiftZero-JKSwiftZeroAssets */,
 				85AEF83B4CDC524672447EAF44354E71 /* Pods-JKSwiftZero_Example */,
 				D4E052DF9D103D44B5E61AC64D22D920 /* Pods-JKSwiftZero_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2268EF1230773DDC7F8C10E3A5E66375 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3FB4F690C711738B84F783DDA211D4 /* JKSwiftZeroAssets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXShellScriptBuildPhase section */
-		ACB21399481A4E889CFC5CB1C8771D9F /* Copy generated compatibility header */ = {
+		6481E941145D05894142450D104EA6C9 /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -340,22 +409,29 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		20BD3C1C4658B31400C7DC7A83677702 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1D8D083B41C013C2C4D87BB84F86011 /* JKBaseTest.swift in Sources */,
+				389A072923BF5BFEC026FE177AF57C75 /* JKBasicGrammar.swift in Sources */,
+				C9D2D601038AEF6DCB1AD8DE9CDA711F /* JKBasicTest.swift in Sources */,
+				3F3EC8A7A70920AEAC8DCD41D4E92223 /* JKSwiftZero-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681153D70639337E1D8586305A4A074E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6AC229105D360F4D10A6766FAF86EA51 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5A23D2031CB267F8C63CA68220C5AB38 /* Pods-JKSwiftZero_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A301439C53E403B030EB216A5CDB4A73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8876C701CB4F78A4B1EC02281E0EE4E /* JKBaseTest.swift in Sources */,
-				10DC5CFDDB58BA2E01023DB5836CDFC9 /* JKBasicGrammar.swift in Sources */,
-				06C55DCFEDDCF6969B30196A25DF03C9 /* JKBasicTest.swift in Sources */,
-				B17ED5695CC0164B7FAB3EEE5BC68B71 /* JKSwiftZero-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,24 +446,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9DAFBFAE2D3BC7FAEC4E84BFCED3AE56 /* PBXTargetDependency */ = {
+		446EA727D9CCFFB2503291B68FD00088 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JKSwiftZero-JKSwiftZeroAssets";
+			target = 61524C062E43F5F5F873E35CC28A640F /* JKSwiftZero-JKSwiftZeroAssets */;
+			targetProxy = 78D6E8DBFDD35A1AC7028755A1F00C73 /* PBXContainerItemProxy */;
+		};
+		828258A1FFD53A4BE23DB3149F98C50E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JKSwiftZero;
 			target = 9C1822E1406E7F58200D2EDA195FA773 /* JKSwiftZero */;
-			targetProxy = 3C65049F661D1E9A759826C05AE18170 /* PBXContainerItemProxy */;
+			targetProxy = 1F4BC2AED07E41237914FC7DC8EE6A4D /* PBXContainerItemProxy */;
 		};
-		F2AA48BF9793774F23A55484090B9FDA /* PBXTargetDependency */ = {
+		E58DAB10BDB9EA868ED449E8D92F80B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JKSwiftZero_Example";
 			target = 85AEF83B4CDC524672447EAF44354E71 /* Pods-JKSwiftZero_Example */;
-			targetProxy = BE276DA79E31CA5BE4BA825DF6216FC7 /* PBXContainerItemProxy */;
+			targetProxy = EDD9CADD1BE23C82582B41709D6F268A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		06E0CBEF7A4A3B693DC00B997CDE577C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D58301753F024184BEC7EE8E466E1E8C /* Pods-JKSwiftZero_Example.release.xcconfig */;
+			baseConfigurationReference = 1CBFD8FB49124D743E8C4135BDDE0C54 /* Pods-JKSwiftZero_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -403,6 +485,57 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29DBDB57E40704B67AB52077C8C399FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B8EDCCBB35C783D6A0D5C411E888E58 /* JKSwiftZero.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftZero/JKSwiftZero-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/JKSwiftZero/JKSwiftZero.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JKSwiftZero;
+				PRODUCT_NAME = JKSwiftZero;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6891F5C14C17C3FAFAFE1C812B41FE6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD86133762B3C47813F1F99D9DB2BAEB /* JKSwiftZero.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftZero/JKSwiftZero-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/JKSwiftZero/JKSwiftZero.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = JKSwiftZero;
+				PRODUCT_NAME = JKSwiftZero;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -470,34 +603,9 @@
 			};
 			name = Release;
 		};
-		87C34738ED39F56543D4CB5569A747F4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 246FB854AE14B30F31EB1EB4579753EA /* JKSwiftZero.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftZero/JKSwiftZero-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = Headers/Public/JKSwiftZero/JKSwiftZero.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = JKSwiftZero;
-				PRODUCT_NAME = JKSwiftZero;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		8EA3E505C7188643CE9C5C6BBFAC11B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2961566B45C976156D1C1DF1F9ADFD49 /* Pods-JKSwiftZero_Tests.release.xcconfig */;
+			baseConfigurationReference = CA806FA95FB10905FC81C849A896DE47 /* Pods-JKSwiftZero_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -517,35 +625,25 @@
 			};
 			name = Release;
 		};
-		A5E7A49D0FF502A3995275D8B831186F /* Release */ = {
+		8F37862447AFD04B2249B680A06E60D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 999BF8F90F281A429D0AD0FEFE7E5AE5 /* JKSwiftZero.release.xcconfig */;
+			baseConfigurationReference = 0B8EDCCBB35C783D6A0D5C411E888E58 /* JKSwiftZero.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/JKSwiftZero/JKSwiftZero-prefix.pch";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSwiftZero";
+				IBSC_MODULE = JKSwiftZero;
+				INFOPLIST_FILE = "Target Support Files/JKSwiftZero/ResourceBundle-JKSwiftZeroAssets-JKSwiftZero-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = Headers/Public/JKSwiftZero/JKSwiftZero.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = JKSwiftZero;
-				PRODUCT_NAME = JKSwiftZero;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = JKSwiftZeroAssets;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Release;
+			name = Debug;
 		};
 		AB1C37CBF751352AD8990DF90C58F98A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8261E0BDCEBB8B437A50601F272DC555 /* Pods-JKSwiftZero_Example.debug.xcconfig */;
+			baseConfigurationReference = 099EBDF0CE20BB2A7E0D8DE8AB692E83 /* Pods-JKSwiftZero_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -567,7 +665,7 @@
 		};
 		C5F964B7829AC1E8D727FE7563CBF89A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 237837C84BC7F5777815FBCB6F3C0206 /* Pods-JKSwiftZero_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1F3028B35E7212032BD9F88777CA21F1 /* Pods-JKSwiftZero_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -585,6 +683,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		D24260B78C668D001535E114868FCC0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD86133762B3C47813F1F99D9DB2BAEB /* JKSwiftZero.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSwiftZero";
+				IBSC_MODULE = JKSwiftZero;
+				INFOPLIST_FILE = "Target Support Files/JKSwiftZero/ResourceBundle-JKSwiftZeroAssets-JKSwiftZero-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = JKSwiftZeroAssets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -673,11 +787,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E76960C21784DE7C3FC85BAC7110D1D /* Build configuration list for PBXNativeTarget "JKSwiftZero" */ = {
+		91CD642950A21BF2686FE48F5AACD8D3 /* Build configuration list for PBXNativeTarget "JKSwiftZero-JKSwiftZeroAssets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87C34738ED39F56543D4CB5569A747F4 /* Debug */,
-				A5E7A49D0FF502A3995275D8B831186F /* Release */,
+				8F37862447AFD04B2249B680A06E60D1 /* Debug */,
+				D24260B78C668D001535E114868FCC0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -687,6 +801,15 @@
 			buildConfigurations = (
 				AB1C37CBF751352AD8990DF90C58F98A /* Debug */,
 				06E0CBEF7A4A3B693DC00B997CDE577C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3301E5B3D8CCDD158BB3D142C6651A /* Build configuration list for PBXNativeTarget "JKSwiftZero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29DBDB57E40704B67AB52077C8C399FB /* Debug */,
+				6891F5C14C17C3FAFAFE1C812B41FE6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
