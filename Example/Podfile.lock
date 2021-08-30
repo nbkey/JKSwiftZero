@@ -1,5 +1,7 @@
 PODS:
-  - JKSwiftZero (1.0.0)
+  - JKSwiftZero (1.0.1):
+    - JKSwiftZero/Playground (= 1.0.1)
+  - JKSwiftZero/Playground (1.0.1)
 
 DEPENDENCIES:
   - JKSwiftZero (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKSwiftZero: 7bbfc6d41f094edd870141c100b3eb12ebe41c6e
+  JKSwiftZero: 2e56ca68a66d60364515b98d49ccb8bbd1f49b67
 
-PODFILE CHECKSUM: 9d68f43b9d0c39e4f37351ace960343dbd6d02a5
+PODFILE CHECKSUM: c63f9fd8183fc64c9de895fc353fc1294f08d459
 
 COCOAPODS: 1.10.1

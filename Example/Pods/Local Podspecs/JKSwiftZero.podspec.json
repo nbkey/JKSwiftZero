@@ -1,6 +1,6 @@
 {
   "name": "JKSwiftZero",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "A short description of JKSwiftZero.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/nbkey/JKSwiftZero",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/nbkey/JKSwiftZero.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"
@@ -22,10 +22,11 @@
     "5.0"
   ],
   "source_files": "JKSwiftZero/Classes/**/*",
-  "resource_bundles": {
-    "JKSwiftZero": [
-      "JKSwiftZero/Assets/*.png"
-    ]
-  },
+  "subspecs": [
+    {
+      "name": "Playground",
+      "source_files": "JKSwiftZero/Classes/Playground/**/*"
+    }
+  ],
   "swift_version": "5.0"
 }

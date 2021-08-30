@@ -15,13 +15,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let JK = JKBaseTest()
-        JK.sayHello()
-        JK.instanceMethod(param: "world happy")
+//        let JK = JKBaseTest()
+//        JK.sayHello()
+//        JK.instanceMethod(param: "world happy")
+//
+//        let JKBasic = JKBasicTest()
+//        JKBasic.sayHelloBasic()
         
-        let JKBasic = JKBasicTest()
-        JKBasic.sayHelloBasic()
-        
+        var myString = "hello swift"
+        print(myString)
     }
 
     override func didReceiveMemoryWarning() {

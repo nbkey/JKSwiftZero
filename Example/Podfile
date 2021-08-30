@@ -1,10 +1,14 @@
-use_frameworks!
-
 platform :ios, '10.0'
+
+#source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/nbkey/JKSwiftSpec.git'
+
+#use_frameworks!
 
 target 'JKSwiftZero_Example' do
   pod 'JKSwiftZero', :path => '../'
 
+#  pod 'JKSwiftZero'
   target 'JKSwiftZero_Tests' do
     inherit! :search_paths
 

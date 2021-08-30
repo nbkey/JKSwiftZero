@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'JKSwiftZero'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'A short description of JKSwiftZero.'
     
     # This description is used to generate tags and improve search results.
@@ -31,6 +31,15 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     s.swift_versions = ['5.0']
     s.source_files = 'JKSwiftZero/Classes/**/*'
+    
+    s.subspec 'Playground' do |ss|
+        ss.source_files = 'JKSwiftZero/Classes/Playground/**/*'
+#        ss.prefix_header_file = ''
+#        ss.resource_bundles = {
+#            'Xibs' => ['JKSwiftZero/Classes//**/*.xib']
+#        }
+        #ss.resources = ['DAHealthMonitoring/Assets/*.xcassets']
+    end
     
     # 放在子工程内
     # s.resource_bundles = {

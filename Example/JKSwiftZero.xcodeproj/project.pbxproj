@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C55613B86C1002ECF6E6B76 /* libPods-JKSwiftZero_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58636725B45B39838C14C479 /* libPods-JKSwiftZero_Tests.a */; };
+		23C5A71C405555C809B7435E /* libPods-JKSwiftZero_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 970E215E6ABDF43B1712D08B /* libPods-JKSwiftZero_Example.a */; };
 		3FD5AF0B26C202DC002C64BB /* JKTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5AF0A26C202DC002C64BB /* JKTest.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -14,8 +16,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		B1C9E047BB38F98AE570F206 /* Pods_JKSwiftZero_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A29B7D672464F3DE898FCB3 /* Pods_JKSwiftZero_Tests.framework */; };
-		D2F541A61F4CF2181DC69DBA /* Pods_JKSwiftZero_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88233E0EBBC836CEC2D7783E /* Pods_JKSwiftZero_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,7 @@
 /* Begin PBXFileReference section */
 		3F33993953DC970B12A99271 /* JKSwiftZero.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JKSwiftZero.podspec; path = ../JKSwiftZero.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3FD5AF0A26C202DC002C64BB /* JKTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTest.swift; sourceTree = "<group>"; };
-		5A29B7D672464F3DE898FCB3 /* Pods_JKSwiftZero_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSwiftZero_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58636725B45B39838C14C479 /* libPods-JKSwiftZero_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKSwiftZero_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6045C1F7C0107E09A5FB7FCE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JKSwiftZero_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSwiftZero_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79EB0F8DDCE68C91C5585E6F /* Pods-JKSwiftZero_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSwiftZero_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JKSwiftZero_Tests/Pods-JKSwiftZero_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		88233E0EBBC836CEC2D7783E /* Pods_JKSwiftZero_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSwiftZero_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		970E215E6ABDF43B1712D08B /* libPods-JKSwiftZero_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKSwiftZero_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D38A8D95AA491385B4208E1 /* Pods-JKSwiftZero_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSwiftZero_Example.debug.xcconfig"; path = "Target Support Files/Pods-JKSwiftZero_Example/Pods-JKSwiftZero_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A4F62A1F31FE90B4BC8D5E71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BB18EB002B7734411CD5E30F /* Pods-JKSwiftZero_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSwiftZero_Example.release.xcconfig"; path = "Target Support Files/Pods-JKSwiftZero_Example/Pods-JKSwiftZero_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F541A61F4CF2181DC69DBA /* Pods_JKSwiftZero_Example.framework in Frameworks */,
+				23C5A71C405555C809B7435E /* libPods-JKSwiftZero_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1C9E047BB38F98AE570F206 /* Pods_JKSwiftZero_Tests.framework in Frameworks */,
+				0C55613B86C1002ECF6E6B76 /* libPods-JKSwiftZero_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,8 +74,8 @@
 		42AB2EFFDBFC73AB3354962F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88233E0EBBC836CEC2D7783E /* Pods_JKSwiftZero_Example.framework */,
-				5A29B7D672464F3DE898FCB3 /* Pods_JKSwiftZero_Tests.framework */,
+				970E215E6ABDF43B1712D08B /* libPods-JKSwiftZero_Example.a */,
+				58636725B45B39838C14C479 /* libPods-JKSwiftZero_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -173,7 +173,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				42E4295F3D66DDD5218B5413 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,24 +264,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		42E4295F3D66DDD5218B5413 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JKSwiftZero_Example/Pods-JKSwiftZero_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/JKSwiftZero/JKSwiftZero.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JKSwiftZero.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JKSwiftZero_Example/Pods-JKSwiftZero_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A43769EAA067237A909AE915 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
