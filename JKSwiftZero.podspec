@@ -35,10 +35,10 @@ Pod::Spec.new do |s|
     s.subspec 'Playground' do |ss|
         # ss.source_files = 'JKSwiftZero/Classes/Playground/**/*'
 #        ss.prefix_header_file = ''
-       ss.resource_bundles = {
-           'Xibs' => ['JKSwiftZero/Classes/Playground/**/*']
-       }
-        #ss.resources = ['DAHealthMonitoring/Assets/*.xcassets']
+       # ss.resource_bundles = {
+       #     '' => ['JKSwiftZero/Classes/Playground/**/*']
+       # }
+        ss.resources = ['JKSwiftZero/Classes/Playground/**/*']
     end
     
     # 放在子工程内
